@@ -2,8 +2,8 @@
 
 <p>
   <img src="https://img.shields.io/badge/made%20by-Renan%20MDO-black?style=flat-square">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/RenanMDO/RMOMoney?color=black&style=flat-square">
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/RenanMDO/RMOMoney?color=black&style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/RenanMDO/RMONews?color=black&style=flat-square">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/RenanMDO/RMONews?color=black&style=flat-square">
 </p>
 
 <img align="right" src="public/images/logo.svg" width="35%" alt="RMONews">
