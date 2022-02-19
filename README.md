@@ -21,6 +21,12 @@
 
 RMONews is a blog with informative posts about React technologies. The application ideas are just examples, putting JAMstack concepts into practice (Javascript, APIs and Markup). These are technologies that integrate ReactJs (web application), Stripe (payment management API), Prismic Cms (Content API), NextAuth (Login Authentication).
 
+<br>
+
+<p align="center">
+  <img src="https://repository-images.githubusercontent.com/461276659/3e0c77ef-716e-432d-8125-5999e383419f" alt="Cover RMONews">
+</p>
+
 ## Technologies
 
 The following tools were used in building the project:
