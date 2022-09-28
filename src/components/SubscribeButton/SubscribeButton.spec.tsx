@@ -1,14 +1,14 @@
-import { render, screen, fireEvent } from '@testing-library/react'
-import { signIn, useSession } from 'next-auth/react'
-import { useRouter } from 'next/router'
-import { SubscribeButton } from '.'
+import { render, screen, fireEvent } from '@testing-library/react';
+import { signIn, useSession } from 'next-auth/react';
+import { useRouter } from 'next/router';
+import { SubscribeButton } from '.';
 
 jest.mock('next-auth/react');
 jest.mock('next/router', () => ({
   useRouter: jest.fn().mockReturnValue({
     push: jest.fn(),
   }),
-}))
+}));
 
 
 describe('SubscribeButton componente', () => {
@@ -57,13 +57,13 @@ describe('SubscribeButton componente', () => {
         expires: 'fake-expires'
       },
       status: "authenticated"
-    })
+    });
 
     useRouterMocked.mockReturnValueOnce({
       push: pushMock,
-    } as any)
+    } as any);
 
-    render(<SubscribeButton />)
+    render(<SubscribeButton />);
 
     const subscribeButton = screen.getByText('Subscribe Now');
 
@@ -71,4 +71,4 @@ describe('SubscribeButton componente', () => {
 
     expect(pushMock).toHaveBeenCalledWith('/posts')
   });
-})
+});
