@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { signIn, useSession } from 'next-auth/react'
-import { useRouter } from 'next/router'
+import { useSession } from 'next-auth/react'
 import Home, { getStaticProps } from '../../pages';
 import { stripe } from '../../services/stripe';
 
